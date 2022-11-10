@@ -15,7 +15,8 @@ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
 1. Membuat app baru bernama counter_7 dengan create
 2. Kemudian kita buat namanya menjadi Program Counter ```home: const MyHomePage(title: 'Program Counter'),```
 3. Membuat fungsi baru bernama _decrementCounter dan buat menjadi code berikut
-```void _decrementCounter() {
+```
+void _decrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
@@ -27,7 +28,8 @@ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
   }
 ```
 4. Kita buat kondisi dimana jika bilangannya genap maka merah, jika ganjil maka biru
-```if(_counter%2==0)...[
+```
+if(_counter%2==0)...[
       Text("GENAP",style:TextStyle(color:Colors.red)),
     ]else...[
       Text("GANJIL",style:TextStyle(color:Colors.blue))
@@ -38,7 +40,8 @@ Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas.
     ),
 ```
 5. Kita buat tombol untuk decrementnya dengan code berikut
-``` floatingActionButton: Padding(
+``` 
+floatingActionButton: Padding(
             padding: const EdgeInsets.only(left: 30),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
